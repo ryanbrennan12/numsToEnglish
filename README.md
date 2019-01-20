@@ -1,6 +1,7 @@
 # NumsToEnglish Todo App
 
-Simple React ToDo App implementing the Toy Problem, NumsToEnglish
+Simple React ToDo App implementing the Toy Problem, NumsToEnglish.
+Implemented **without** `create-react-app`
 
 - [1.2. Usage](#13-usage)
 - [1.3. Code Style](#13-code-style)
@@ -19,10 +20,10 @@ This app converts any number up to a quintillion into English.  On `Submit`, tha
 ## 1.4. Development Setup
 
 
-This service uses the following dev stack:
+This service uses the following dev stack and tech:
   - Server: [Express](http://expressjs.com/)
   - Deployment: [Elastic Beanstalk on AWS](https://aws.amazon.com/elasticbeanstalk/)
-  - Client:[React](http://reactjs.org/)
+  - Client:[React](http://reactjs.org/) & [Webpack](https://webpack.js.org)
 
 ```sh
 # install npm dependencies
