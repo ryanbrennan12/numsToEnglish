@@ -10,12 +10,16 @@
     ]
   },
   "scripts": {
-    "start": "webpack --watch"
+    "react-dev": "webpack --watch",
+    "server-dev": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.18.9",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
