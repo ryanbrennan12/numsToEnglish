@@ -19,6 +19,7 @@ class App extends React.Component {
     };
     this.onChange = this.onChange.bind(this);
     this.addItem = this.addItem.bind(this);
+    this.onDelete = this.onDelete.bind(this);
   }
 
   onChange(e) {
@@ -37,6 +38,14 @@ class App extends React.Component {
       items: [...this.state.items, this.state.strs]
     });
   }
+  onDelete(e) {
+    let idx = this.state.items.indexOf(e.target.getAttribute('value'));
+    let arr = this.state.items;
+    arr.splice(idx,1)
+    this.setState({
+      items: arr
+    })
+  }
   render() {
     return (
       <div id="container">
@@ -45,7 +54,7 @@ class App extends React.Component {
           <input placeholder="Add New Number" value={this.state.amount} onChange={this.onChange} />
         </form>
 
-        <List items={this.state.items} />
+        <List items={this.state.items} onClick={this.onDelete}/>
       </div>
     );
   }
