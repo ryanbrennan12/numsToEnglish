@@ -33,3 +33,11 @@ This service uses the following dev stack and tech:
 # install npm dependencies
 $> cd /path/to/num2eng
 $> npm install
+```
+
+To execute:
+
+```sh
+$ npm run server-dev
+$ npm run react-dev
+```
