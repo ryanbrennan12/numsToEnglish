@@ -57,9 +57,9 @@ function hundred(str, obj) {
   }
 }
 function numToEng(num, obj, cb) {
-  // let numStr = num.toString();
-  // let str = numStr.replace(/[, ]+/g, " ").trim().replace(/\s/g, '');
-  let str = num.toString();
+  let numStr = num.toString();
+  let str = numStr.replace(/[, ]+/g, " ").trim().replace(/\s/g, '');
+  // let str = num.toString();
   let len = str.length;
   let first = obj[str[0]];
   let thou = ' thousand ';

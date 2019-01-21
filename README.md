@@ -12,6 +12,10 @@ Implemented **without** `create-react-app`
 
 This app converts any number up to a quintillion into English.  On `Submit`, that conversion is then added to the list
 
+**Main Widget**
+
+![upload](https://giant.gfycat.com/DecisiveScarceBull.gif)
+
 ## 1.3. Code Style
 
 
