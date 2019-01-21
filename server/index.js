@@ -7,6 +7,5 @@ console.log(__dirname)
 
 app.use(express.static(__dirname + '/../dist'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`listening on http://localhost:${port}!`))
 
-// /Users/ryanbrennan/Desktop/Cover Letters/num2Eng/dist

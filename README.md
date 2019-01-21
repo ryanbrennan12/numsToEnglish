@@ -1,6 +1,6 @@
 # NumsToEnglish Todo App
 
-Simple React ToDo App implementing the Toy Problem, NumsToEnglish.
+Simple React ToDo App implementing the Toy Problem, `NumsToEnglish`.
 Implemented **without** `create-react-app`
 
 - [1.2. Usage](#13-usage)
