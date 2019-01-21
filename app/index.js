@@ -39,11 +39,12 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div id="container">
         <form onSubmit={this.addItem}>
-          <input value={this.state.amount} onChange={this.onChange} />
-          <button>SUBMIT</button>
+        <h1>Nums-to-English <i className="fa fa-plus" aria-hidden="true"></i></h1>
+          <input placeholder="Add New Number" value={this.state.amount} onChange={this.onChange} />
         </form>
+
         <List items={this.state.items} />
       </div>
     );
@@ -51,3 +52,4 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
+
