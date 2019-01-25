@@ -8,5 +8,5 @@ console.log(__dirname)
 app.use(express.static(__dirname + '/../dist'));
 
 app.listen(port, () => console.log(`listening on http://localhost:${port}!`))
-//
+
 
